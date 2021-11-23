@@ -2,7 +2,7 @@
 %
 % swipl
 % ?- [palindrome].
-% ?- palindrome().
+% ?- palindrome([A, B], L).
 
 :- include('../1-concatenate/concatenate.pl').
 

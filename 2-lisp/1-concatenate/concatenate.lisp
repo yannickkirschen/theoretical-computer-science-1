@@ -1,0 +1,5 @@
+(DEFUN conc (L1 L2)
+    (COND ((NULL L1) L2)
+          (T (CONS (car L1) (conc (CDR L1) L2)))
+    )
+)

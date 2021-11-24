@@ -1,6 +1,5 @@
 % Sort a list by using mergesort.
 %
-% swipl
 % ?- [mergesort].
 % ?- mergesort([5,3,2,6,5,7,2,1], L).
 

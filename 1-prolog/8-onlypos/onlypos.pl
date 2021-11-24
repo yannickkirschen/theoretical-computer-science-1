@@ -1,6 +1,5 @@
 % Removes all zero values from a list, keep positive values and multiply negative values by -2.
 %
-% swipl
 % ?- [onlypos].
 % ?- onlypos([0, 2, -4, 7, 5, -6], L).
 

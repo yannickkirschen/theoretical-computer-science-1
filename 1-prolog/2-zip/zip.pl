@@ -1,6 +1,5 @@
 % Zip two lists element by element.
 %
-% swipl
 % ?- [zip].
 % ?- zip([1,3,5], [2,4,6], L).
 

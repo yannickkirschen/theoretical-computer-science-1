@@ -1,6 +1,5 @@
 % Reverse a list.
 %
-% swipl
 % ?- [rev].
 % ?- rev([1,2,3,4], L).
 

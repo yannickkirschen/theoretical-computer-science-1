@@ -1,6 +1,5 @@
 % Create a palindrome.
 %
-% swipl
 % ?- [palindrome].
 % ?- palindrome([A, B], L).
 

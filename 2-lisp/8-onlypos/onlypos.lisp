@@ -1,0 +1,5 @@
+(DEFUN onlypos (L)
+    (COND ((null L) L)
+          ((= 0 (CAR L)) (onlypos (CDR L)))
+          ((> 0 (CAR L)) (CONS (* -2 (CAR L)) (onlypos (CDR L))))
+          (T (CONS (CAR L) (onlypos (CDR L))))))
